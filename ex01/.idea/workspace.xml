@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72f87b7e-8a4f-4bcc-b2e1-32465d6f887c" name="변경" comment="변경">
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/src/main/java/org/scoula/config/RootConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/src/main/java/org/scoula/config/ServletConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/src/main/java/org/scoula/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/src/main/java/org/scoula/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringLegacy/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/after/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/after/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/after/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/after/NotiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/after/SMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/before/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/before/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/before/NotiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/before/SMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/di/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/di/ClassA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/di/ClassB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lecture/di/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/app/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/app/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/app/Main3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/beans/Parrot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/beans/Parrot2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/beans/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/beans/Person2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/config/ProjectConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/config/ProjectConfig2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/config/ProjectConfig3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/config/ProjectConfig4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/config/ProjectConfig5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/domain/Parrot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/main/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/src/main/java/org/scoula/config/RootConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/src/main/java/org/scoula/config/ServletConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/src/main/java/org/scoula/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/src/main/java/org/scoula/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01_advanced/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2yFZLNNPzcidz6QdHjLmpsgzfXA" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.ex01 [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ex01 [:Main2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ex01 [:Main3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jiwon/Documents/Study_Spring/Study_Spring/ex01/src/main/java/org/lecture/after&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/lecture/after" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.scoula.main" />
+      <recent name="org.scoula.beans" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.org.lecture.di.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lecture.after.Main" />
+      <module name="ex01.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lecture.after.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.lecture.before.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lecture.before.Main" />
+      <module name="ex01.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lecture.before.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.lecture.di.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lecture.di.Main" />
+      <module name="ex01.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lecture.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.scoula.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.scoula.main.Main" />
+      <module name="ex01.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.scoula.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.scoula.main.Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.scoula.main.Main2" />
+      <module name="ex01.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.scoula.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.org.lecture.di.Main" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.org.lecture.before.Main" />
+        <item itemvalue="애플리케이션.org.scoula.main.Main2" />
+        <item itemvalue="애플리케이션.org.scoula.main.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="72f87b7e-8a4f-4bcc-b2e1-32465d6f887c" name="변경" comment="" />
+      <created>1749432225537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749432225537</updated>
+      <workItem from="1749432226651" duration="14243000" />
+      <workItem from="1749455052651" duration="356000" />
+      <workItem from="1749516050719" duration="147000" />
+      <workItem from="1749516424811" duration="105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
