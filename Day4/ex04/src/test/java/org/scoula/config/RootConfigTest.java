@@ -46,12 +46,15 @@ class RootConfigTest {
     @Test
     public void testSqlSessionFactory() {
         try (
+                // SqlSession 생성 및 자동 해제 (try-with-resources)
                 SqlSession session = sqlSessionFactory.openSession();
                 Connection con = session.getConnection();
         ) {
-            log.info(session);
-            log.info(con);
+            log.info("SqlSession: " + session);
+            log.info("Connection: " + con);
         } catch (Exception e) {
+
+            // import static org.junit.jupiter.api.Assertions.fail;
             fail(e.getMessage());
         }
     }
