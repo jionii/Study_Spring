@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace에는 인터페이스 이름까지 넣어줌 -->
+<mapper namespace="org.scoula.board.mapper.BoardMapper">
+
+    <select id="getList" resultType="org.scoula.board.domain.BoardVO">
+
+        <![CDATA[
+
+                select * from tbl_board
+                order by no desc
+
+                ]]>
+    </select>
+
+    <!--  parameterType = "long" 생략 가능. 입력값 1개, pk인 경우  -->
+    <select id="get" resultType="org.scoula.board.domain.BoardVO">
+
+        select * from tbl_board where no = #{no}
+
+    </select>
+
+    <!--  insert는 대부분 입력값이 VO임. 생략 가능  -->
+    <!--  insert, update, delete 결과는 무조건 int. 생략 가능  -->
+    <!--  id는 인터페이스의 함수와 동일해야 함수를 호출했을 때, mapper의 sql문이 실행됨  -->
+    <!--  insert 하고 나서   -->
+    <!--  VO에 있는 해당 필드명과 동일한 것을 넣어주면 get항목명()이 호출됨  -->
+    <insert id="create">
+
+        insert into tbl_board (title, content, writer)
+        values (#{title}, #{content}, #{writer})
+
+        <selectKey resultType="Long" keyProperty="no" keyColumn="no" order="AFTER">
+
+            SELECT LAST_INSERT_ID()
+
+        </selectKey>
+
+    </insert>
+
+</mapper>
