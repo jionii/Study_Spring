@@ -23,6 +23,8 @@ class BoardMapperTest {
     // BoardMapper 인터페이스를 구현한 클래스의 객체를 mapper 변수에 넣어주세요
     // spring과 mybatis가 환결설정한 것을 기반으로 하여 자동으로 클래스를 만들고 싱글톤도 만들어줌
     private BoardMapper mapper;
+    @Autowired
+    private BoardMapper boardMapper;
 
     @Test
     @DisplayName("BoardMapper 의 목록 불러오기")
@@ -55,5 +57,30 @@ class BoardMapperTest {
         mapper.create(board);
 
         log.info(board);
+    }
+
+    /* update */
+    @Test
+    @DisplayName("BoardMapper의 글 수정")
+    public void update() {
+
+        BoardVO board = new BoardVO();
+        board.setNo(5L);
+        board.setTitle("수정된 제목");
+        board.setWriter("수정된 내용");
+
+        int count = mapper.update(board);
+
+        assertEquals(1, count);
+        log.info("Update Result Int : {}", count);
+    }
+
+    @Test
+    @DisplayName("BoardMapper의 글 삭제")
+    public void delete() {
+        int count = mapper.delete(5L);
+
+        assertEquals(1, count);
+        log.info("Delete Result Int : {}", count);
     }
 }

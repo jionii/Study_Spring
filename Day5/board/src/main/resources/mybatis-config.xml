@@ -12,6 +12,11 @@
     <!--  sql 쓰는 xml 파일(mapper 파일)에 클래스 타입을 써줄 때 패키지를 mapper 파일에서 안 쓰고 싶을 때  -->
     <!--  config 파일에 기본 패키지로 설정하면 됨  -->
     <!--  mapper 파일에는 클래스명만 작성하면 됨  -->
+
+    <!--
+    org.scoula.board.domain.BoardVO 경로를 아래의 설정을 하면
+    BoardVO 이렇게 줄여서 써도 됨
+    -->
     <typeAliases>
         <package name="org.scoula.board.domain" />
     </typeAliases>

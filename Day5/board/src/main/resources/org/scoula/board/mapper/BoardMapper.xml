@@ -41,4 +41,20 @@
 
     </insert>
 
+    <!-- update 기능   -->
+    <update id="update">
+        update tbl_board
+        set
+             title = #{title},
+             content = #{content},
+             writer = #{writer},
+             update_date = now()
+        where no = #{no}
+    </update>
+
+    <!-- delete 기능   -->
+    <delete id="delete">
+        delete from tbl_board where no = #{no}
+    </delete>
+
 </mapper>
