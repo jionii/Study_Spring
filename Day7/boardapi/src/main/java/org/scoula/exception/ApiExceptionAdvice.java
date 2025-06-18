@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
 import java.util.NoSuchElementException;
+
 @RestControllerAdvice
 public class ApiExceptionAdvice {
     // NoSuchElementException.class가 발생한 경우
